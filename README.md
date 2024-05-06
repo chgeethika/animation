@@ -40,6 +40,7 @@ Registeration Number : 212221040032
 ```
 ```
 ### activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -153,7 +154,9 @@ Registeration Number : 212221040032
         app:layout_constraintVertical_bias="0.772" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ### blink.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha android:fromAlpha="0.0"
@@ -163,7 +166,9 @@ Registeration Number : 212221040032
         android:repeatMode="reverse"
         android:repeatCount="infinite"/>
 </set>
+```
 ### fade.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- duration is the time for which animation will work-->
@@ -177,7 +182,9 @@ Registeration Number : 212221040032
         android:startOffset="2000"
         android:toAlpha="0" />
 </set>
+```
 ### rotate.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <rotate
@@ -195,7 +202,9 @@ Registeration Number : 212221040032
         android:startOffset="5000"
         android:toDegrees="0" />
 </set>
+```
 ### move.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -203,7 +212,9 @@ Registeration Number : 212221040032
         android:toXDelta="75%p"
         android:duration="700" />
 </set>
+```
 ### slide.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale
@@ -214,7 +225,9 @@ Registeration Number : 212221040032
         android:toXScale="1.0"
         android:toYScale="0.0" />
 </set>
+```
 ### zoom.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale xmlns:android="http://schemas.android.com/apk/res/android"
@@ -237,7 +250,9 @@ Registeration Number : 212221040032
         android:pivotY="25%" >
     </scale>
 </set>
+```
 ### main_activity.java:
+```
 package com.example.graphicsimplier;
 
 import androidx.appcompat.app.AppCompatActivity;
