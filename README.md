@@ -38,7 +38,6 @@ Developed by:ch.geethika
 Registeration Number : 212221040032
 */
 ```
-```
 ### activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
