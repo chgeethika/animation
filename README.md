@@ -342,8 +342,15 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
+![image](https://github.com/chgeethika/animation/assets/142209368/e150ce46-a792-4048-8407-04341cfc1673)
+![image](https://github.com/chgeethika/animation/assets/142209368/de5a14da-c0d9-46e3-aebc-12bff695dc86)
+![image](https://github.com/chgeethika/animation/assets/142209368/8e5eb7ba-9256-4a75-b7cd-4a55c1b89825)
+![image](https://github.com/chgeethika/animation/assets/142209368/e2e7615a-b28a-4d40-9291-bbc1df1a3bf6)
 
 
 
 
 ## RESULT
+```
+To develop a application to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio is successful.
+```
